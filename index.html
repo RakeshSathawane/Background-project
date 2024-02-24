@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background_Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+        header {
+            /* background-color: black; */
+            background: linear-gradient(
+                rgb(0, 0, 0), rgba(0, 0, 0, 0.878) ,rgba(0, 0, 0, 0.79)
+            );
+            display: flex;
+            align-items: center;
+            padding: 0 3rem; 
+            height: 6rem;
+
+        }
+        header nav ul li {
+            color: white;
+        } 
+        header ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between; 
+            /* align-items: center; */
+        }
+        header ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 0 1rem;
+            margin: 0 0.5rem;
+        }
+        .white_button {
+            background-color: white;
+            color: black;
+            padding: 0.5rem 1rem;
+        }
+        main sub_main {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        
+        .images {
+            
+        }
+        .img_align{
+            /* display: flex; */
+            justify-content: space-between;
+            padding: 2rem 2 rem;
+            margin: 2rem 4rem;
+        }
+        .bottom {
+            background-color: black;
+            color:white;
+            height: 14rem;
+            width: 100%;
+        }
+        #bottom_image {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+               <li><a href="#" class="white_button">Home</a></li>
+               <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Background_Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <img width="100%" src="1.jpeg" alt="image"><br>
+        <sub_main class="img_align">
+        <div class="images">
+        <img width="200px" height="200px" src="2.jpeg" alt="image">
+        <img width="200px" height="200px"src="3.jpeg" alt="image">
+        <img width="200px" height="200px" src="4.jpeg" alt="image">
+        </div>
+        </sub_main>
+        
+    </main>
+    <footer>
+        <div class="bottom">
+        </div>
+        <div id="bottom_image">
+        <img width="80%" src="5.jpeg" alt="image">
+        
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
